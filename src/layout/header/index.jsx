@@ -36,14 +36,14 @@ export const Header = () => {
                             <span>
                                 ورود
                             </span>
-                            <RxPerson />
+                            <RxPerson className='text-2xl' />
                         </button>
                         <span className='text-white text-lg'>
                             |
                         </span>
-                      <button className='flex justify-center rounded text-white text-base items-center hover:border-b-4 hover:border-white'>
+                      <button className='flex gap-2 justify-center rounded text-white text-base items-center hover:border-b-4 hover:border-white'>
                         <span>سبد خرید/ 0 تومان</span>
-                          <BsBag />
+                          <BsBag className='text-2xl' />
                         </button>
                     </div>
                 </div>
