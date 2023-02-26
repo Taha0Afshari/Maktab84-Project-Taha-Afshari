@@ -1,0 +1,171 @@
+{
+  "prudocts": [
+    {
+      "id": 1,
+      "img": "",
+      "price": "308000",
+      "name": "کت و شلوار مدل ایتالیایی",
+      "category": "کت و شلوار",
+      "stocks": "5",
+      "introduction": "",
+      "expertCheck": " "
+    },
+    {
+      "id": 2,
+      "img": "",
+      "price": "385000",
+      "name": "کت و شلوار مدل آمریکایی",
+      "category": "کت و شلوار",
+      "stocks": "13",
+      "introduction": "",
+      "expertCheck": " "
+    },
+    {
+      "id": 3,
+      "img": "",
+      "price": "238000",
+      "name": "کت و شلوار مدل ایتالیایی",
+      "category": "کت و شلوار",
+      "stocks": "15",
+      "introduction": "",
+      "expertCheck":" "
+    },
+    {
+      "id": 1,
+      "img": "",
+      "price": "38000",
+      "name": "کت و شلوار مدل ایتالیایی",
+      "category": "کت و شلوار",
+      "stocks": "5",
+      "introduction": "",
+      "expertCheck":" "
+    },
+    {
+      "id": 1,
+      "img": "",
+      "price": "38000",
+      "name": "کت و شلوار مدل ایتالیایی",
+      "category": "کت و شلوار",
+      "stocks": "5",
+      "introduction": "",
+      "expertCheck":" "
+    },
+    {
+      "id": 1,
+      "img": "",
+      "price": "458000",
+      "name": "کفش مجلسی بند دار",
+      "category": "کفش مجلسی",
+      "stocks": "23",
+      "introduction": "",
+      "expertCheck":" "
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "userName": "mamad",
+      "password": "123456789"
+    },
+    {
+      "id": 2,
+      "userName": "ali",
+      "password": "987654321"
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "name": "",
+      "totalPrice": "92000",
+      "deliveryTime": "1401/11/5",
+      "phoneNumber": "0912131415",
+      "orderTime": "1401/11/1",
+      "address": "",
+      "status": "notDelivered",
+      "cart": [
+        {
+          "id": 1,
+          "price": "",
+          "name": "",
+          "stocks": "7"
+        },
+        {
+          "id": 2,
+          "price": "",
+          "name": "",
+          "stocks": "12"
+        },
+        {
+          "id": 3,
+          "price": "",
+          "name": "",
+          "stocks": "19"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "",
+      "totalPrice": "92000",
+      "deliveryTime": "1401/11/5",
+      "phoneNumber": "0912131415",
+      "orderTime": "1401/11/1",
+      "address": "",
+      "status": "notDelivered",
+      "cart": [
+        {
+          "id": 1,
+          "price": "",
+          "name": "",
+          "stocks": "7"
+        },
+        {
+          "id": 2,
+          "price": "",
+          "name": "",
+          "stocks": "12"
+        },
+        {
+          "id": 3,
+          "price": "",
+          "name": "",
+          "stocks": "19"
+        }
+      ]
+    }
+    
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "category": "پیراهن",
+      "title": "پیراهن مردانه"
+    },
+    {
+      "id": 2,
+      "category": "کت و شلوار",
+      "title": "لباس مجلسی"
+    },
+    {
+      "id": 3,
+      "category": "کفش",
+      "title": "  کفش مجلسی "
+    },
+    {
+      "id": 4,
+      "category": "لوازم جانبی",
+      "title": "گیره سر آستین"
+    },
+    {
+      "id": 5,
+      "category": "کفش",
+      "title": "  کفش مجلسی "
+    },
+    {
+      "id": 6,
+      "category": "لوازم جانبی",
+      "title": "کراوات"
+    }
+  ]
+}
