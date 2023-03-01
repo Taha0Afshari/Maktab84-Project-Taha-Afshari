@@ -14,7 +14,7 @@ export const Productcard = () => {
                 <span className="my-1 text-lg font-bold">کت شلوار دامادی</span>
                 <span className="my-1 text-base font-bold"> 3,500,000 تومان</span>
             </div>
-            <button className="w-full bg-[#222222] hover:bg-black text-white p-2 rounded-b-md text-xl">خرید</button>
+            <button className="w-full bg-[#222222] hover:bg-black text-white p-2 rounded-b-md text-xl">افزودن به سبد خرید</button>
         </div>
     );
 }
