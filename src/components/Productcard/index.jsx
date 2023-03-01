@@ -16,6 +16,5 @@ export const Productcard = () => {
             </div>
             <button className="w-full bg-[#222222] hover:bg-black text-white p-2 rounded-b-md text-xl">خرید</button>
         </div>
-
     );
 }
