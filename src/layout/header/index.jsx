@@ -41,6 +41,7 @@ export const Header = () => {
                         <span className='text-white text-lg'>
                             |
                         </span>
+
                         <button className='flex gap-2 justify-center rounded text-white text-base items-center hover:border-b-4 hover:border-white'>
                             <span>سبد خرید/ 0 تومان</span>
                             <BsBag className='text-2xl' />
