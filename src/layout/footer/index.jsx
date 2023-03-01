@@ -6,7 +6,7 @@ export const Footer = () => {
                     <div className="md:flex md:justify-between flex flex-col ">
                         <div className="my-6 md:mb-0 flex flex-wrap justify-between items-center">
                             <a href="#" className="w-[25%]">
-                                <img src="public\assets\images\logo-lcman-footer.svg" className="w-full h-full" alt="SharpWear Logo" />
+                                <img src="assets\images\logo-lcman-footer.svg" className="w-full h-full" alt="LC-Man Logo" />
                             </a>
                             <div className="flex flex-col">
                                 <span className="text-white">مشترک شوید تا اخرین اخبار را دریافت کنید</span>
@@ -24,7 +24,7 @@ export const Footer = () => {
                             <h2 className="mb-6 text-sm font-semibold text-[#cccccc] uppercase dark:text-white">اطلاعات تماس</h2>
                             <ul className="text-white dark:text-gray-400">
                                 <li className="mb-4 text-[#999999]">
-                                    <a href="https://SharpWear.com/" className="hover:underline">تلفن</a>
+                                    <a href="" className="hover:underline">تلفن</a>
                                 </li>
                                 <li className="mb-4 text-[#999999]">
                                     <a href="https://tailwindcss.com/" className="hover:underline">ایمیل</a>
@@ -38,7 +38,7 @@ export const Footer = () => {
                             <h2 className="mb-6 text-sm font-semibold text-[#cccccc] uppercase dark:text-white">ال سی من</h2>
                             <ul className="text-white dark:text-gray-400">
                                 <li className="mb-4 text-[#999999]">
-                                    <a href="https://github.com/themesberg/SharpWear" className="hover:underline ">اخذ نمایندگی</a>
+                                    <a href="https://github.com/themesberg/LC-Man" className="hover:underline ">اخذ نمایندگی</a>
                                 </li>
                                 <li className="mb-4 text-[#999999]">
                                     <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">درخواست همکاری</a>
@@ -74,15 +74,15 @@ export const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        
+
                     </div>
                     <hr className="my-6 border-[#666666] sm:mx-auto dark:border-gray-700 lg:my-8" />
                     <div className="sm:flex sm:items-center sm:justify-between flex items-center justify-between">
                         <div className="w-[10%]">
-                            <img className="w-full h-full" src="public\assets\images\logo-tyam-reverse.png"/>
+                            <img className="w-full h-full" src="assets\images\logo-tyam-reverse.png" />
                             <img className="w-full h-full" />
                         </div>
-                        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">کلیه حقوق این سایت متعلق به فروشگاه اینترنتی ال سی من می باشد. © 2023 
+                        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">کلیه حقوق این سایت متعلق به فروشگاه اینترنتی ال سی من می باشد. © 2023
                         </span>
                         <div class="flex mt-4 gap-3 sm:justify-center sm:mt-0">
                             <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">

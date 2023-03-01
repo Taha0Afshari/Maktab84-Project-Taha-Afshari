@@ -3,13 +3,13 @@ import { RxPerson } from 'react-icons/rx'
 import { BsBag } from 'react-icons/bs'
 
 export const Header = () => {
-  return (
+    return (
         <>
             <nav className="bg-[#222222] flex justify-center items-center px-2 sm:px-4 py-3 fixed w-full z-20 top-0 ">
                 <div className="grid grid-cols-3 items-center w-full">
                     <div className='justify-self-start gap-5 flex justify-center items-center'>
                         <a href="#" className="flex  items-center">
-                            <img src="public\assets\images\logo-lcman-footer.svg" className="w-full h-full" alt="LC-Man Logo" />
+                            <img src="assets\images\logo-lcman-footer.svg" className="w-full h-full" alt="LC-Man Logo" />
                         </a>
                         <div className='flex gap-2 border rounded-lg justify-center justify-self-start items-center '>
                             <input className='h-10 bg-transparent border-transparent ' type='text' placeholder='جستجو' id='HeaderSearchBar' />
@@ -21,7 +21,7 @@ export const Header = () => {
                     <div className="items-center justify-self-center justify-between hidden w-full md:flex md:w-auto " id="navbar-sticky">
                         <ul className="flex flex-col p-4 mt-4 border rounded-lg md:flex-row gap-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                             <li>
-                              <a href="#" className="block py-2 pl-3 pr-4 text-white rounded items-center hover:border-b-4 hover:border-white" aria-current="page">محصولات</a>
+                                <a href="#" className="block py-2 pl-3 pr-4 text-white rounded items-center hover:border-b-4 hover:border-white" aria-current="page">محصولات</a>
                             </li>
                             <li>
                                 <a href="#" className="block py-2 pl-3 pr-4 text-white rounded items-center hover:border-b-4 hover:border-white">فروشگاه ها</a>
@@ -32,7 +32,7 @@ export const Header = () => {
                         </ul>
                     </div>
                     <div className="justify-self-end gap-2 flex justify-center items-center">
-                      <button className='flex gap-2 rounded justify-center text-white text-lg items-center hover:border-b-4 hover:border-white'>
+                        <button className='flex gap-2 rounded justify-center text-white text-lg items-center hover:border-b-4 hover:border-white'>
                             <span>
                                 ورود
                             </span>
@@ -41,13 +41,14 @@ export const Header = () => {
                         <span className='text-white text-lg'>
                             |
                         </span>
-                      <button className='flex gap-2 justify-center rounded text-white text-base items-center hover:border-b-4 hover:border-white'>
-                        <span>سبد خرید/ 0 تومان</span>
-                          <BsBag className='text-2xl' />
+
+                        <button className='flex gap-2 justify-center rounded text-white text-base items-center hover:border-b-4 hover:border-white'>
+                            <span>سبد خرید/ 0 تومان</span>
+                            <BsBag className='text-2xl' />
                         </button>
                     </div>
                 </div>
             </nav>
         </>
-  )
+    )
 }

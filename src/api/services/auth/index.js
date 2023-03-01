@@ -6,4 +6,4 @@ export const signupService = (data) => {
 
 export const signinService = (data) => {
     return INSTANCE.post("/signin", data)
-}
+}                  
