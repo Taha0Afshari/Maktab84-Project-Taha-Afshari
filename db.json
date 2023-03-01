@@ -2,7 +2,7 @@
   "prudocts": [
     {
       "id": 1,
-      "img": "",
+      "img": "https://www.lc-man.com/Content/Media/Product/94170/Pro_8752_570.jpg",
       "price": "308000",
       "name": "کت و شلوار مدل ایتالیایی",
       "category": "کت و شلوار",
@@ -28,7 +28,7 @@
       "category": "کت و شلوار",
       "stocks": "15",
       "introduction": "",
-      "expertCheck":" "
+      "expertCheck": " "
     },
     {
       "id": 1,
@@ -38,7 +38,7 @@
       "category": "کت و شلوار",
       "stocks": "5",
       "introduction": "",
-      "expertCheck":" "
+      "expertCheck": " "
     },
     {
       "id": 1,
@@ -48,7 +48,7 @@
       "category": "کت و شلوار",
       "stocks": "5",
       "introduction": "",
-      "expertCheck":" "
+      "expertCheck": " "
     },
     {
       "id": 1,
@@ -58,7 +58,7 @@
       "category": "کفش مجلسی",
       "stocks": "23",
       "introduction": "",
-      "expertCheck":" "
+      "expertCheck": " "
     }
   ],
   "users": [
@@ -134,7 +134,6 @@
         }
       ]
     }
-    
   ],
   "categories": [
     {

@@ -1,5 +1,5 @@
 {
-  "name": "sharp-wear",
+  "name": "lc_man",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,6 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .js,.jsx",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
     "dbserver": "json-server --watch db.json"
   },
   "dependencies": {
@@ -28,13 +30,16 @@
     "@vitejs/plugin-react": "^3.1.0",
     "autoprefixer": "^10.4.13",
     "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.32.2",
     "json-server": "^0.17.2",
     "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
     "tailwindcss": "^3.2.6",
     "vite": "^4.1.0",
     "vite-jsconfig-paths": "^2.0.1"
