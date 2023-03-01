@@ -1,5 +1,5 @@
 export const Productcard = () => {
-    return ( 
+    return (
 
         <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 shadow-sm shadow-black mb-3">
             <a href="#">
@@ -24,6 +24,5 @@ export const Productcard = () => {
             </div>
         </div>
 
-     );
+    )
 }
- 
