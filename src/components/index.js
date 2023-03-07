@@ -7,5 +7,13 @@ export * from './Searchbar'
 export * from './Slider'
 export * from './Sortbar'
 export * from './Textfield'
+export * from './Inventorytable'
+export * from './Ordertable'
+export * from './Ordertablecart'
+export * from './Title'
+export * from './Subcategory'
+export * from './Shoppingcart'
+export * from './Productstable'
+export * from './Accordingpanel'
 
 
