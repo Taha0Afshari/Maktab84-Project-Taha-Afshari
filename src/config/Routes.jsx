@@ -11,7 +11,7 @@ export const PAGE = {
     CART: "/cartPage",
     INFORMATION: "/informationPage",
     PAYMENT: "/paymentPage",
-    REULT: "/resultPage"
+    RESULT: "/resultPage"
 }
 
 // export const INTERNAL_PATHS = {
